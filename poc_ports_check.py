@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from sys import argv
 from socket import socket, setdefaulttimeout, AF_INET, SOCK_STREAM
 
