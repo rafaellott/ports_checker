@@ -1,7 +1,7 @@
 from sys import argv
 from socket import socket, setdefaulttimeout, AF_INET, SOCK_STREAM
 
-*_, timeout, host, port_check = argv
+_, timeout, host, port_check = argv
 
 setdefaulttimeout(float(timeout))
 sock = socket(AF_INET, SOCK_STREAM)
